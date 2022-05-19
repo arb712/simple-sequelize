@@ -19,7 +19,7 @@ exports.create = (req, res) => {
       res.send(data);
     })
     .catch((err) => {
-      res.satus(500).send({
+      res.status(500).send({
         message: err.message || "Some error Occurent while creaating Tut",
       });
     });

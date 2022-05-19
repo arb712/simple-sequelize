@@ -1,0 +1,37 @@
+{
+  "development": {
+    "username": "arb712",
+
+    "password": "akuslaluada",
+
+    "database": "sequelizePrc",
+
+    "host": "127.0.0.1",
+
+    "dialect": "mssql"
+  },
+
+  "test": {
+    "username": "",
+
+    "password": null,
+
+    "database": "",
+
+    "host": "",
+
+    "dialect": "mysql"
+  },
+
+  "production": {
+    "username": "",
+
+    "password": null,
+
+    "database": "",
+
+    "host": "127.0.0.1",
+
+    "dialect": "mysql"
+  }
+}
